@@ -1,0 +1,8 @@
+#NavbarName{
+    display: flex;
+    justify-content: left;
+}
+#NavbarContent{
+    display: flex;
+    justify-content: right;
+}
