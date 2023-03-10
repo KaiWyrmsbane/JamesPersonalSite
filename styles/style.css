@@ -1,0 +1,23 @@
+/*Home page CSS rules*/
+
+/* BodyBackGround */
+#HomeBody{
+    /* background-image:url("https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?w=740&t=st=1678475462~exp=1678476062~hmac=2ee243c14647c000eb94cde9cf78f9f9534ab871e067175cd6e9c5340210e35f"); */
+    background-image: url("/Images/HomeBackGroundImage2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Body Content */
+.BodyContent{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.tinybio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    color: rgb(168, 59, 168);
+}
