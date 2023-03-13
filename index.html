@@ -8,44 +8,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body>
-        <!-- Navbar links-->
-        <nav class="navbar navbar-expand-lg bg-light navbar-light">
-          <a class="navbar-brand" href="#">James</a>
-
+    <body id="HomeBodyTag">
+      
         <!-- toggle button -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" id="navbarbutton">
-              <span class="navbar-toggler-icon"></span>
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" id="navbarbutton">
+              <span class="navbar-toggler-icon"></span> -->
           </button>
-
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="navbar-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="navbar-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="navbar-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="navbar-item">
-              <a class="nav-link" href="#">Resume</a>
-            </li>
-            <li class="navbar-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+        <div class="Navbar">
+          <a href="index.html" class="active">James</a>
+          <div id="myLinks">
+              <a href="index.html">Home</a>
+              <a href="About.html">About</a>
+              <a href="Projects.html">Projects</a>
+              <a href="Resume.html">Resume</a>
+              <a href="Contact.html">Contact</a>
           </div>
-        </nav>
-        <div class="backgroundPic">
-            <div class="tinybio">
+          <a href="javascript:void(0);" class="icon" onclick="navbarFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <div class="tinybio">
                 <!-- testing to see if the bootstrap is working -->
                 <!-- <button class="btn btn-primary">Hello there</button> -->
-            </div>
         </div>
-        <script src="" async defer></script>
+        <script src="/Scripts/Utilities.js"></script>
     </body>
     <footer>
         <!-- links to linkedin and github with icons -->
