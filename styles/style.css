@@ -5,6 +5,7 @@ html,body{
     background-size: 100% 100%;
 }
 
+/* Navbar styles ----------------------------------*/
 .Navbar {
     overflow: hidden;
     background-color: #333;
@@ -40,4 +41,38 @@ html,body{
     background-color: rgb(94, 26, 82);
     color: white;
   }
+   /* Create media queries for the navbar */
+/* ------------------------------------------------ */
 
+.BodyContent{
+    /* border: 2px  red solid; */
+    height: 36em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.IntroContent{
+    border: 2px white solid;
+    height: 4em;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.IntroName{
+    color: white;   
+    text-align: center; 
+    border: 1px red solid;
+}
+.Intro{
+    color: white;   
+    text-align: center;
+    border: 2px yellow solid; 
+}
+
+footer{
+    background-color:rgb(94, 26, 82);
+    height: 2.3em;
+    /* border: 2px yellow solid; */
+}
