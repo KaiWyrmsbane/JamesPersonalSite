@@ -9,7 +9,10 @@ html,body{
 .Navbar {
     overflow: hidden;
     background-color: #333;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
   
   .Navbar #myLinks {
@@ -46,33 +49,43 @@ html,body{
 
 .BodyContent{
     /* border: 2px  red solid; */
-    height: 36em;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 .IntroContent{
-    border: 2px white solid;
-    height: 4em;
-    width: 10em;
+    background-color:rgb(94, 26, 82) ;
+    opacity: 75%;
+    border-radius: 9%;
+    height: 7em;
+    width: 15em;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 .IntroName{
-    color: white;   
+    height: 50%;
+    bottom: 0%;
+    margin: 0;
+    color: rgb(255, 255, 255); 
     text-align: center; 
-    border: 1px red solid;
 }
 .Intro{
+    height:50%;
+    margin: 0;
     color: white;   
     text-align: center;
-    border: 2px yellow solid; 
 }
 
+/* Footer styles */
 footer{
     background-color:rgb(94, 26, 82);
-    height: 2.3em;
-    /* border: 2px yellow solid; */
+    height: 2em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
