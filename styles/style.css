@@ -1,43 +1,107 @@
 html,body{
-    background-image: url("/Images/HomeBackgroundImage.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+  background-image: url("/Images/HomeBackgroundImage2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
+/* Navbar styles ----------------------------------*/
 .Navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
-  }
-  
-  .Navbar #myLinks {
-    display: none;
-  }
-  
-  .Navbar a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  .Navbar a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  .Navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .active {
-    background-color: rgb(94, 26, 82);
-    color: white;
-  }
+  overflow: hidden;
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
+.Navbar #myLinks {
+  display: none;
+}
+
+.Navbar a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.Navbar a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.Navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  color: white;
+}
+ /* Create media queries for the navbar */
+/* ------------------------------------------------ */
+
+.BodyContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.IntroContent{
+  opacity: 75%;
+  border-radius: 9%;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.Intro{
+  height: 50%;
+  bottom: 0%;
+  margin: 0;
+  color: white;
+  text-align: center; 
+}
+.IntroName{
+  margin: 0;
+  color: white;   
+  text-align: center;
+}
+
+/* Footer styles */
+footer{
+  background-color: #333;
+  height: 2em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+footer > div > a {
+  color: #ddd;
+}
+
+
+.carousel-inner{
+  text-align: center;
+}
+.carousel-item{
+  font-weight: bold;
+  font-size: larger;
+}
