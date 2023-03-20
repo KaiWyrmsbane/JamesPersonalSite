@@ -7,7 +7,6 @@ html,body{
 
 /* Navbar styles ----------------------------------*/
 .Navbar {
-<<<<<<< HEAD
   overflow: hidden;
   background-color: #333;
   position: absolute;
@@ -75,84 +74,10 @@ html,body{
   margin: 0;
   color: white;   
   text-align: center;
-=======
-    overflow: hidden;
-    background-color: #333;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-  
-  .Navbar #myLinks {
-    display: none;
-  }
-  
-  .Navbar a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  .Navbar a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  .Navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .active {
-    background-color: rgb(94, 26, 82);
-    color: white;
-  }
-   /* Create media queries for the navbar */
-/* ------------------------------------------------ */
-
-.BodyContent{
-    /* border: 2px  red solid; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-.IntroContent{
-    background-color:rgb(94, 26, 82) ;
-    opacity: 75%;
-    border-radius: 9%;
-    height: 7em;
-    width: 15em;
-    display: flex;
-    flex-direction: column;
-}
-.IntroName{
-    height: 50%;
-    bottom: 0%;
-    margin: 0;
-    color: rgb(255, 255, 255); 
-    text-align: center; 
-}
-.Intro{
-    height:50%;
-    margin: 0;
-    color: white;   
-    text-align: center;
->>>>>>> 817d14cacc347b60bb2b8a8ba00204b3823b7001
 }
 
 /* Footer styles */
 footer{
-<<<<<<< HEAD
   background-color: #333;
   height: 2em;
   position: absolute;
@@ -179,12 +104,4 @@ footer > div > a {
 .carousel-item{
   font-weight: bold;
   font-size: larger;
-=======
-    background-color:rgb(94, 26, 82);
-    height: 2em;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
->>>>>>> 817d14cacc347b60bb2b8a8ba00204b3823b7001
 }
