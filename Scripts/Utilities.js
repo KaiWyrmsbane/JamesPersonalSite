@@ -1,3 +1,4 @@
+//carousel funtionality
 function navbarFunction(){
     var x = document.getElementById("myLinks");
     if(x.style.display === "block"){
@@ -8,7 +9,7 @@ function navbarFunction(){
     }
 }
 
-//accordian stuff
+//accordian funtionalilty
 var acc = document.getElementsByClassName("accordion");
 var i;
 
