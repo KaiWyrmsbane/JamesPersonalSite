@@ -25,6 +25,8 @@ html,body{
   text-decoration: none;
   font-size: 17px;
   display: block;
+  transition-property:color;
+  transition-duration: .5s;
 }
 
 .Navbar a.icon {
@@ -37,14 +39,18 @@ html,body{
 
 .Navbar a:hover {
   background-color: #ddd;
-  color: black;
+  font-weight:bold;
+  color: 40916c;
 }
 
 .active {
   color: white;
 }
  /* Create media queries for the navbar */
-/* ------------------------------------------------ */
+ @media (min-width: 1280px) {
+  
+ }
+ /* ------------------------------------*/
 
 .BodyContent{
   display: flex;
