@@ -5,7 +5,8 @@ html,body{
   background-size: 100% 100%;
 }
 
-/* Navbar styles ----------------------------------*/
+/* Navbar styles -----------------------*/
+@media(min-width: 1280px){
 .Navbar {
   overflow: hidden;
   background-color: #333;
@@ -13,10 +14,12 @@ html,body{
   top: 0;
   left: 0;
   width: 100%;
+  display: flex;
 }
 
 .Navbar #myLinks {
-  display: none;
+  display: flex;
+  flex-direction:row;
 }
 
 .Navbar a {
@@ -31,7 +34,7 @@ html,body{
 
 .Navbar a.icon {
   background: black;
-  display: block;
+  display: none;
   position: absolute;
   right: 0;
   top: 0;
@@ -46,9 +49,50 @@ html,body{
 .active {
   color: white;
 }
+}
+/* ------------------------------------ */
  /* Create media queries for the navbar */
- @media (min-width: 1280px) {
+ @media (max-width: 1280px) {
+  .Navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
   
+  .Navbar #myLinks {
+    display: none;
+  }
+  
+  .Navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    transition-property:color;
+    transition-duration: .5s;
+  }
+  
+  .Navbar a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .Navbar a:hover {
+    background-color: #ddd;
+    font-weight:bold;
+    color: 40916c;
+  }
+  
+  .active {
+    color: white;
+  }
  }
  /* ------------------------------------*/
 
@@ -179,19 +223,27 @@ footer > div > a {
 /* Contact styles */
 
 /* Test code start */
-.PhoneContent, .EmailContent, .LocationContent, .FormContent {
+.ContactContent{
   border: 2px solid red;
-  margin: 1em 1em 1em 1em;
+  /* margin: 1em; */
   height:fit-content;
-  width:fit-content;
+  width:70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /* Test code end */
+.IconContainer, .Info{
+  margin: 10px;
+  color:white;
+}
 
 .RotateBodyContent{
   border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: top;
+  align-items: center;
   width: 100%;
   Height: 80%;
 }
