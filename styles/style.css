@@ -61,11 +61,11 @@ html,body{
     left: 0;
     width: 100%;
   }
-  
+
   .Navbar #myLinks {
     display: none;
   }
-  
+
   .Navbar a {
     color: white;
     padding: 14px 16px;
@@ -75,7 +75,7 @@ html,body{
     transition-property:color;
     transition-duration: .5s;
   }
-  
+
   .Navbar a.icon {
     background: black;
     display: block;
@@ -83,13 +83,13 @@ html,body{
     right: 0;
     top: 0;
   }
-  
+
   .Navbar a:hover {
     background-color: #ddd;
     font-weight:bold;
     color: 40916c;
   }
-  
+
   .active {
     color: white;
   }
@@ -118,11 +118,11 @@ html,body{
   bottom: 0%;
   margin: 0;
   color: white;
-  text-align: center; 
+  text-align: center;
 }
 .IntroName{
   margin: 0;
-  color: white;   
+  color: white;
   text-align: center;
 }
 
@@ -238,12 +238,32 @@ footer > div > a {
   color:white;
 }
 
+.GenInput{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  border:2px solid orange;
+}
+
+.userMessage{
+  height: 125px;
+}
+
 .RotateBodyContent{
   border: 2px solid red;
   display: flex;
   flex-direction: column;
-  justify-content: top;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   Height: 80%;
+}
+
+/* change flex-direction to row for bigger screens */
+.ContactForm{
+  border: 2px solid red;
+  width:70%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
 }
