@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <!-- head code -->
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,55 +31,64 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="/Scripts/Utilities.js" defer></script>
   </head>
-  <div class="Navbar">
-    <a href="index.html" class="active">James</a>
-    <div id="myLinks">
-      <a href="index.html">Home</a>
-      <a href="About.html">About</a>
-      <a href="Projects.html">Projects</a>
-      <a href="Resume.html">Resume</a>
-      <a href="Contact.html">Contact</a>
-    </div>
+  <!-- end of head code -->
+  <!-- navbar code -->
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">James</a>
+    <a href="About.html">About</a>
+    <a href="Projects.html" class="active">Projects</a>
+    <a href="Resume.html">Resume</a>
+    <a href="Contact.html">Contact</a>
     <a href="javascript:void(0);" class="icon" onclick="navbarFunction()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
+  <!-- end of navbar code -->
+  <!-- body code -->
   <body id="ProjectsBodyTag">
     <div class="BodyContent">
       <div class="ProjectsAccordian">
-        <button class="accordion">TimeDeck</button>
+        <button class="accordion">
+          TimeDeck
+          <div class="LangUsed"><p>C# ASP.NET EFCore</p></div>
+        </button>
         <div class="panel">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+          <p>An example of a simple yet informative way for employees to keep 
+            track of their hours worked, PTO time left, and personal settings
+            on account.
           </p>
+          <button class="panelButton" onclick="location.href='https://github.com/KaiWyrmsbane/TimeDeck'" type="button">View Project</button>
         </div>
 
-        <button class="accordion">James Time Management System</button>
+        <button class="accordion">
+          James Time Management System
+          <div class="LangUsed"><p>C#</p></div>
+        </button>
         <div class="panel">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            An example of a non-convoluted way for employees
+            to keep track of their hours worked, PTO time left, and 
+            personal settings on account.
           </p>
+          <button class="panelButton" onclick="location.href='https://github.com/KaiWyrmsbane/James-Time-Management-System'" type="button">View Project</button>
         </div>
 
-        <button class="accordion">JamesPersonalSite</button>
+        <button class="accordion">
+          JamesPersonalSite
+          <div class="LangUsed"><p>HTML CSS javascript bootstrap</p></div>
+        </button>
         <div class="panel">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            My personal website used to market my
+            skill sets when it comes to software/web
+            development.
           </p>
+          <button class="panelButton" onclick="location.href='https://github.com/KaiWyrmsbane/JamesPersonalSite'" type="button">View Project</button>
         </div>
       </div>
     </div>
-    <script src="/Scripts/Utilities.js"></script>
     <footer>
       <div class="footer-links">
         <a href="https://www.linkedin.com/in/jamesvanmeter1001" target="_blank"
@@ -94,4 +104,5 @@
       </div>
     </footer>
   </body>
+  <!-- end of body code -->
 </html>

@@ -1,17 +1,12 @@
+//Navbar functionality
 function navbarFunction() {
-  let navLink = document.getElementById("myLinks");
-    if (navLink.style.display === "block") {
-      navLink.style.display = "none";
-    } 
-    else {
-       navLink.style.display = "block";
-    }
 
-    // if(window.innerWidth === 1280){
-    //   navLink.style.display = "flex";
-    //   navLink.style.flexDirection = "row";
-    // }
- 
+  const nav = document.getElementById("myTopnav");
+  if (nav.className === "topnav") {
+    nav.className += " responsive";
+  } else {
+    nav.className = "topnav";
+  }
 }
 
 //accordian funtionalilty

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <!-- head code -->
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,49 +31,58 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="/Scripts/Utilities.js" defer></script>
   </head>
-  <div class="Navbar">
-    <a href="index.html" class="active">James</a>
-    <div id="myLinks">
-      <a href="index.html">Home</a>
-      <a href="About.html">About</a>
-      <a href="Projects.html">Projects</a>
-      <a href="Resume.html">Resume</a>
-      <a href="Contact.html">Contact</a>
-    </div>
+  <!-- end of head code -->
+  <!-- Navbar Code -->
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">James</a>
+    <a href="About.html">About</a>
+    <a href="Projects.html">Projects</a>
+    <a href="Resume.html">Resume</a>
+    <a href="Contact.html" class="active">Contact</a>
     <a href="javascript:void(0);" class="icon" onclick="navbarFunction()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
+  <!-- end of Navbar code -->
+  <!-- Body code -->
   <body id="ContactBodyTag">
     <div class="BodyContent">
       <div class="RotateBodyContent">
-      <!-- phone content -->
-      <div class="ContactContent">
-        <div class="IconContainer"><i class="fa fa-phone fa-lg"></i></div>
-        <div class="Info">Phone Number</div>
-      </div>
-      <!-- location content -->
-      <div class="ContactContent">
-        <div class="IconContainer"><i class="fa fa-compass fa-lg"></i></div>
-        <div class="Info">
-          <p>kentucky</p>
+        <!-- phone content -->
+        <div class="ContactContent">
+          <div class="IconContainer"><i class="fa fa-phone fa-2x"></i></div>
+          <div class="Info">Phone Number</div>
         </div>
-      </div>
-      <!-- email content -->
-      <div class="ContactContent">
-        <div class="IconContainer"><i class="fa fa-envelope fa-lg"></i></div>
-        <div class="Info">
+        <!-- location content -->
+        <div class="ContactContent">
+          <div class="IconContainer"><i class="fa fa-compass fa-2x"></i></div>
+          <div class="Info">
+            <p>kentucky</p>
+          </div>
+        </div>
+        <!-- email content -->
+        <div class="ContactContent">
+          <div class="IconContainer"><i class="fa fa-envelope fa-2x"></i></div>
+          <div class="Info">
             <p>jamesvanmeter1219@gmail.com</p>
+          </div>
         </div>
-      </div>
-      <!-- build the form here -->
-      <div class="FormContent">
-
+        <!-- build the form here -->
+        <div class="ContactForm">
+          <form>
+            <div class="GenInput">
+              <input type="text" name="user" placeholder="First Name" />
+              <input type="text" name="user" placeholder="Email Address" />
+              <input type="text" name="user" placeholder="Subject" />
+              <textarea class="userMessage" name="freeform">Message</textarea>
+              <input type="submit" class="ContactButton" value="Send message">
+            </div>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
-    <script src="/Scripts/Utilities.js"></script>
     <footer>
       <div class="footer-links">
         <a href="https://www.linkedin.com/in/jamesvanmeter1001" target="_blank"
@@ -88,4 +98,5 @@
       </div>
     </footer>
   </body>
+  <!-- end of body code -->
 </html>
