@@ -192,7 +192,7 @@ html,body{
 footer{
   background-color: #333;
   height: 2em;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -246,11 +246,12 @@ footer > div > a {
 
 /* projects & Resume styles ------------------------------------*/
 .ProjectsAccordian, .ResumeAccordian{
-  height: 65%;
+  height: 85%;
   width: fit-content;
   position: absolute;
   top: 0;
   margin: 1em;
+  overflow: auto;
 }
 
 .accordion {
@@ -278,7 +279,7 @@ footer > div > a {
   background-color: rgba(46, 113, 190, 0.637);
   padding: 0 18px;
   max-height: 0;
-  overflow: hidden;
+  overflow: auto;
   transition: max-height 0.2s ease-out;
   margin-bottom: 1em;
 }
@@ -288,6 +289,41 @@ footer > div > a {
   background-color: #333;
   border-radius: 10px;
   padding: 0.25em;
+}
+
+.skillInfo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillProgress{
+  width: 100%;
+  background-color: #333;
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+}
+
+.skillCSharp, .skillCPlusPlus, .skillJavaScript, .skillHTMLCSS{
+  border-radius: 10px;
+  height: 10px;
+  background-color: rgb(36, 137, 238);
+  border: 2px solid #333;
+}
+
+.skillCSharp{
+  width: 90%;
+}
+
+.skillCPlusPlus{
+  width: 80%;
+}
+
+.skillJavaScript{
+  width: 45%;
+}
+
+.skillHTMLCSS{
+  width:75%;
 }
 
 .LangUsed{
