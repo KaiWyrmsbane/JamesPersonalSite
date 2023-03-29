@@ -241,13 +241,11 @@ footer > div > a {
 .LangUsed{
   text-align: right;
 }
-/* Resume TimeLine styles */
-/* test code ======================================*/
 
+.eduField{
+  font-weight: bold;
+}
 
-
-
-/* end of the test code ======================================= */
 /* Contact styles ----------------------------------------------*/
 .ContactContent{
   margin-bottom: 1em;
