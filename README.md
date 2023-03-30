@@ -20,6 +20,7 @@ https://drive.google.com/file/d/1GDOUpJAIR222-V-GNNXFElqQIX5L_7iG/view?usp=shari
 2. Run an accessibility check and make and document the adjustments in your readme
 3. Create accordion boxes to display different types of information
 4. Run PageSpeed Insights from google.com get a score of 80 or better
+![image](https://user-images.githubusercontent.com/70355800/228695055-a094e742-c9f1-4690-9a0a-ad9ab2020d5e.png)
 5. Add your own transition animation(s) to an element on hover.
 
 ## How to install this example and see how it works
