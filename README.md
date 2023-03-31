@@ -17,11 +17,10 @@ https://drive.google.com/file/d/1GDOUpJAIR222-V-GNNXFElqQIX5L_7iG/view?usp=shari
 
 ## Features Used In Project
 1. Create an accessible responsive menu
-2. Run an accessibility check and make and document the adjustments in your readme
-3. Create accordion boxes to display different types of information
-4. Run PageSpeed Insights from google.com get a score of 80 or better
+2. Create accordion boxes to display different types of information
+3. Run PageSpeed Insights from google.com get a score of 80 or better
 ![image](https://user-images.githubusercontent.com/70355800/228944014-99ea9b88-7411-48a5-b6c9-a637f5ca8e92.png)
-5. Add your own transition animation(s) to an element on hover.
+4. Add your own transition animation(s) to an element on hover.
 
 ## How to install this example and see how it works
 1. Install Visual Studio Code 
